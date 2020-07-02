@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { hijackSave } from './utils';
+
+
+hijackSave();
 
 ReactDOM.render(
   <React.StrictMode>

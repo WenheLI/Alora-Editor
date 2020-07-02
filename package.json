@@ -6,9 +6,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "lodash.debounce": "^4.0.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "rich-markdown-editor": "^10.2.1-0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.117"
   },
   "scripts": {
     "start": "react-scripts start",
